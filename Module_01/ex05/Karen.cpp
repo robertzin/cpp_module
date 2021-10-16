@@ -2,7 +2,6 @@
 
 typedef void (Karen::*ptr_func)( void );
 
-
 void Karen::debug( void ) {
 	std::cout << "[ DEBUG ]\nI love to get extra bacon for my" 
 				<< "7XL-double-cheese-triple-pickle-special-ketchup burger."

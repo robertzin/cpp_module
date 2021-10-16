@@ -21,7 +21,6 @@ Cat::~Cat( void ) {
 
 Cat::Cat( const Cat& toCopy ) {
 	std::cout << "An instance was copied as an Cat class!" << std::endl;
-	delete _CatBrain;
 	this->_CatBrain = new Brain(*toCopy._CatBrain);
 	this->_type = toCopy._type;
 }
