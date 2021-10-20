@@ -1,10 +1,10 @@
-NAME		=	template
+NAME		=	easyfind
 
 C			=	clang++
 
 C_FLAGS		= 	-Wall -Wextra -Werror -std=c++98
 
-HEADERS		=	whatever.hpp
+HEADERS		=	easyfind.hpp
 
 SRCS		=	main.cpp\
 

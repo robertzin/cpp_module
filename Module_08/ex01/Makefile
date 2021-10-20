@@ -1,12 +1,13 @@
-NAME		=	template
+NAME		=	span
 
 C			=	clang++
 
 C_FLAGS		= 	-Wall -Wextra -Werror -std=c++98
 
-HEADERS		=	whatever.hpp
+HEADERS		=	span.hpp
 
 SRCS		=	main.cpp\
+				span.cpp
 
 RM			= rm -f
 

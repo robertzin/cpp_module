@@ -1,12 +1,13 @@
-NAME		=	template
+NAME		=	mutantstack
 
 C			=	clang++
 
 C_FLAGS		= 	-Wall -Wextra -Werror -std=c++98
 
-HEADERS		=	whatever.hpp
+HEADERS		=	mutantstack.hpp
 
 SRCS		=	main.cpp\
+				mutantstack.cpp
 
 RM			= rm -f
 

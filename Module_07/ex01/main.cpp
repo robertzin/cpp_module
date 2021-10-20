@@ -28,6 +28,6 @@ int main( void ) {
 	
 	iter(arr3, length3, plusTwo);
 	iter(arr3, length3, printOne);
-	
+
 	return 0;
 }
